@@ -25,4 +25,3 @@ jobs:
         run: npm i -g firebase-tools
       - name: deploy
         if: success()
-        run: firebase deploy --only hosting:axipapptest --project=axipapptest --token '${{ secrets.FIREBASE_TOKEN }}'
