@@ -2,7 +2,7 @@
 node_modules/
 
 # Angular build artifacts
-dist/
+www/
 
 # IDE and editor specific files (e.g., Visual Studio Code)
 .vscode/
