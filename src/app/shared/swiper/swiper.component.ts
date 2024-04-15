@@ -1,15 +1,13 @@
 import { Component, ElementRef, ViewChild } from '@angular/core';
 
 @Component({
-    selector: 'app-blog',
-    templateUrl: './blog.component.html',
-    styleUrls: ['./blog.component.css']
+    selector: 'app-swiper',
+    standalone: true,
+    imports: [],
+    templateUrl: './swiper.component.html',
+    styleUrl: './swiper.component.css'
 })
-
-/**
- * Blog component
- */
-export class BlogComponent {
+export class SwiperComponent {
     @ViewChild('carousel') carousel: ElementRef;
     currentIndex = 0;
     slideWidth = 0;

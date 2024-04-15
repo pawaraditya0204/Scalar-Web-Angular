@@ -1,0 +1,37 @@
+# Node.js files
+node_modules/
+
+# Angular build artifacts
+dist/
+
+# IDE and editor specific files (e.g., Visual Studio Code)
+.vscode/
+.idea/
+.angular
+# Compiled TypeScript files
+*.js
+*.js.map
+
+# Logs
+*.log
+
+# Dependency lock files
+package-lock.json
+yarn.lock
+
+# Environment variables
+.env
+.env.prod
+.env.prod.local
+.env.local
+
+# macOS specific files
+.DS_Store
+
+# Temporary files
+*~
+
+# Other build artifacts
+/coverage/
+/build/
+/out/

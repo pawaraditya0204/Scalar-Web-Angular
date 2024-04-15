@@ -1,0 +1,86 @@
+.contact {
+    align-items: baseline;
+    gap: 10px;
+}
+
+i {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.footer-content {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.footer-content:hover {
+    color: #ffffff !important;
+}
+
+.enquiry {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 16.4px;
+}
+
+.enquiry:hover {
+    color: #ffffff !important;
+}
+
+.telephone {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+}
+
+.email {
+    align-items: baseline;
+    gap: 10px;
+}
+
+.footer {
+    background: linear-gradient(to right, #371e71, #4e1051) !important;
+}
+
+.review-title {
+    background: -webkit-linear-gradient(left, #ffffff, #ffffff) !important;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.3) !important;
+    font-size: 20px !important;
+}
+
+.horizontal {
+    background: rgba(255, 255, 255, 0.7) !important;
+}
+
+.section-title-border {
+    width: 40px !important;
+    height: 2px !important;
+    margin: 0 !important;
+}
+
+.footer-list li a {
+    color: rgba(255, 255, 255, 0.7) !important;
+    font-size: 16.4px !important;
+}
+
+.footer-list li a:hover {
+    color: #ffffff !important;
+}
+
+.info {
+    font-size: 16.4px !important;
+    color: rgba(255, 255, 255, 0.7) !important;
+    line-height: 1.8;
+}
+
+.info:hover {
+    color: #ffffff !important;
+}
+
+.footer-alt {
+    background: linear-gradient(to right, #371e71, #4e1051) !important;
+    box-shadow: 2px 2px 15px rgba(27, 27, 27, 0.8) !important;
+}
+
+.copy-rights {
+    color: rgba(255, 255, 255, 0.7) !important;
+}

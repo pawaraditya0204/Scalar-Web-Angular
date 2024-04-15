@@ -1,0 +1,80 @@
+.section-title {
+    font-size: 30px !important;
+    background: -webkit-linear-gradient(left, #371e71, #4e1051) !important;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+    text-shadow: 2px 2px 4px rgba(78, 16, 81, 0.3) !important;
+}
+
+.section-subtitle {
+    font-size: 17px !important;
+}
+
+.section-title-border {
+    width: 80px !important;
+    height: 2.6px !important;
+}
+
+.services-box {
+    border: 1px solid #ccc !important;
+    border-radius: 25px !important;
+    height: 380px !important;
+    box-shadow: 2px 2px 4px rgba(78, 16, 81, 0.8);
+}
+
+.services-box:hover {
+    box-shadow: none !important;
+    border: none !important;
+}
+
+.services-box h4 {
+    font-size: 20px !important;
+    background: -webkit-linear-gradient(left, #371e71, #4e1051);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.services-box:hover h4 {
+    background: -webkit-linear-gradient(left, #FFFFFFE5, #FFFFFFE5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.services-box p {
+    font-size: 15.5px !important;
+}
+
+.services-box:hover p {
+    color: rgba(255, 255, 255, 0.8) !important;
+}
+
+.services-box i {
+    margin-bottom: 0;
+    height: 76px !important;
+    width: 76px !important;
+    line-height: 76px !important;
+    font-size: 48px !important;
+
+}
+
+.services-box:hover {
+    background: linear-gradient(to right, #371e71, #4e1051);
+    border: none;
+    color: rgba(255, 255, 255, 0.7);
+    cursor: pointer;
+    /* transition: all 0.6s ease-in-out !important;
+    transform: scale(1.03) !important; */
+}
+
+.text-primary {
+    background: -webkit-linear-gradient(left, #371e71, #4e1051);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.services-box:hover .text-primary {
+    background: -webkit-linear-gradient(left, #ffffff, #ffffff) !important;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+}

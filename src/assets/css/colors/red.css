@@ -17,13 +17,19 @@
 
 .section-title-border, .services-box:hover i,.bg-primary,.btn-primary,.features-item-list li:before,.process-left-icon-1 i,
 .process-left-icon-2 i,.process-left-icon-3 i,.process-left-icon-4 i, .account-card .form-check-input:checked {
-    background-color: #fb3e3e !important;
+    /* background-color: #7A3688 !important; */
+    background: linear-gradient(to right, #371e71, #4e1051) !important;
+    border: none !important;
 }
 
 
 
 .btn-primary,.play-btn,.account-card .form-check-input:checked {
-    border-color:#fb3e3e !important;
+    /* border-color:#7A3688 !important; */
+    box-shadow: 2px 2px 4px rgba(27, 27, 27, 0.3) !important;
+    white-space: nowrap !important;
+    background: linear-gradient(to right, #371e71, #4e1051) !important;
+    border: none !important;
 }
 
 .btn-primary:hover,
@@ -35,7 +41,9 @@
 .btn-primary:focus,
 .btn-primary:hover,
 .open > .dropdown-toggle.btn-primary{
-	background-color: #b90334;
+    /* border-color:#7A3688 !important; */
+    background: linear-gradient(to right, #371e71, #4e1051) !important;
+    border: none !important;
 }
 
 .btn-primary:hover,
@@ -47,7 +55,9 @@
 .btn-primary:focus,
 .btn-primary:hover,
 .open > .dropdown-toggle.btn-primary{
-	border-color: #b90334 !important;
+	/* border-color: #7A3688 !important; */
+    background: linear-gradient(to right, #371e71, #4e1051) !important;
+    border: none !important;
 }
 
 

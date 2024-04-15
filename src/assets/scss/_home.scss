@@ -3,7 +3,8 @@
 //
 
 .bg-home {
-  background: url("../images/bg-home.jpg");
+  background: url("../../assets/images/wave-shape/home-bg-image.jpg") !important;
+  // background: url("../images/bg-home.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -11,7 +12,7 @@
 
 .home-title {
   font-size: 46px;
-  line-height: 64px;
+  line-height: 44px;
 }
 
 .display-table-cell {
@@ -49,7 +50,7 @@
 
 .home-desc {
   color: rgba($white, 0.7);
-  font-size: 15px;
+  font-size: 17px;
   max-width: 600px;
   margin: 0 auto;
 }

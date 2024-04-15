@@ -1,0 +1,184 @@
+.section-title {
+    font-size: 30px !important;
+    background: -webkit-linear-gradient(left, #371e71, #4e1051);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 2px 2px 4px rgba(78, 16, 81, 0.3);
+}
+
+.section-title-border {
+    width: 80px !important;
+    height: 2px !important;
+}
+
+.section-subtitle {
+    font-size: 17px !important;
+}
+
+.btn-primary {
+    font-size: 17.5px !important;
+}
+
+.process-box i {
+    font-size: 70px !important;
+    line-height: 115px !important;
+    background: -webkit-linear-gradient(left, #371e71, #4e1051) !important;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+    cursor: pointer;
+}
+
+i:hover {
+    transform: translateY(-0.5rem) !important;
+    transition: all 0.3s ease-in-out !important;
+}
+
+.process-box h4 {
+    background: -webkit-linear-gradient(left, #371e71, #4e1051) !important;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+    font-size: 19.5px !important;
+}
+
+.bg-color {
+    background: linear-gradient(to right, #371e71, #4e1051) !important;
+    padding-top: 60px !important;
+}
+
+.review-title {
+    background: -webkit-linear-gradient(left, #ffffff, #ffffff) !important;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.3);
+}
+
+.horizontal {
+    background: linear-gradient(to right, #ffffff, #ffffff) !important;
+}
+
+.testo-heading {
+    color: rgba(255, 255, 255, 0.7) !important;
+}
+
+.testimonial-decs {
+    background-color: #f8f9fa !important;
+    height: 395px !important;
+    box-shadow: 2px 2px 4px rgba(27, 27, 27, 0.8) !important;
+    cursor: pointer;
+}
+
+.testimonial-box {
+    padding: 12px;
+}
+
+.testimonial-decs:hover {
+    transition: all 0.3s ease-in-out !important;
+    transform: translateY(-1rem) !important;
+}
+
+.testimonial-decs p {
+    padding: 35px 25px !important;
+    line-height: 2 !important;
+    background: -webkit-linear-gradient(left, #371e71, #4e1051) !important;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+    font-size: 17px !important;
+    font-style: normal !important;
+}
+
+.testimonial-decs h5 {
+    bottom: 30px !important;
+    font-size: 16px !important;
+}
+
+.carousel-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.carousel {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.slide {
+    flex: 0 0 auto;
+    width: 100%;
+}
+
+.blog {
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.prev-btn,
+.next-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: transparent;
+    border: none;
+    color: #333;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.prev-btn {
+    left: 0px;
+    background: #ffffff;
+    padding: 5px 20px;
+    box-shadow: 1px 1px 2px #ccc;
+}
+
+.next-btn {
+    right: 0px;
+    background: #ffffff;
+    padding: 5px 20px;
+    box-shadow: 1px 1px 2px #ccc;
+}
+
+.blog-img img {
+    width: 20px;
+    height: 15px;
+    padding-right: 5px;
+}
+
+@media(min-width : 1200px) {
+    .slide {
+        width: 33.33% !important;
+    }
+}
+
+@media (min-width:768px) and (max-width: 1199px) {}
+
+@media (min-width:992px) and (max-width: 1199px) {
+    .slide {
+        width: 33.33% !important;
+    }
+}
+
+@media (max-width: 767px) {
+    .prev-btn {
+        left: 0px !important;
+        background: #ffffff !important;
+        padding: 0px 10px !important;
+        box-shadow: 1px 1px 2px #ccc !important;
+    }
+
+    .next-btn {
+        right: 0px !important;
+        background: #ffffff !important;
+        padding: 0px 10px !important;
+        box-shadow: 1px 1px 2px #ccc !important;
+    }
+
+    .slide {
+        width: 100% !important;
+    }
+
+    .testimonial-box {
+        margin-top: 25px !important;
+    }
+}
+

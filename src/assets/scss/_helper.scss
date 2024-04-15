@@ -47,7 +47,7 @@
 
 .bg-overlay {
   background: var(--bs-lightan);
-  opacity: 0.9;
+  opacity: 0.8 !important;
   position: absolute;
   height: 100%;
   width: 100%;
@@ -61,7 +61,7 @@
 }
 
 .btn-rounded {
-  border-radius: 30px !important;
+  border-radius: 25px !important;
 }
 
 .box-shadow {
@@ -189,8 +189,8 @@ b {
 }
 
 .section-title-border {
-  width: 50px;
-  height: 2px;
+  width: 70px !important;
+  height: 2.5px !important;
   margin-right: auto;
   margin-left: auto;
   background-color: $primary;
