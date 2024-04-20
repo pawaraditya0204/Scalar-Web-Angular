@@ -9,6 +9,7 @@ i {
 
 .footer-content {
     color: rgba(255, 255, 255, 0.7);
+    font-size: 16.4px !important;
 }
 
 .footer-content:hover {
@@ -28,6 +29,22 @@ i {
     display: flex;
     align-items: baseline;
     gap: 10px;
+}
+
+.contact-detail {
+    white-space: nowrap;
+    display: flex;
+    gap: 7px;
+    align-items: center;
+}
+
+.seperate {
+    font-size: 22px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.seperate:hover {
+    color: #ffffff !important;
 }
 
 .email {
@@ -83,4 +100,45 @@ i {
 
 .copy-rights {
     color: rgba(255, 255, 255, 0.7) !important;
+}
+
+.footer-logo {
+    width: 65px !important;
+    height: 65px !important;
+}
+
+.logo-text {
+    text-transform: uppercase;
+    font-size: 24.4px;
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.3);
+}
+
+/* @media(min-width : 1200px) {}
+
+@media (min-width:768px) and (max-width: 1199px) {} */
+
+@media (max-width: 567px) {
+    .telephone {
+        display: flex !important;
+        flex-direction: column !important;
+        gap: 3px !important;
+        padding-bottom: 10px !important;
+    }
+
+    .seperate {
+        display: none !important;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1280px) {
+    .telephone {
+        display: flex !important;
+        flex-direction: column !important;
+        gap: 3px !important;
+        padding-bottom: 10px !important;
+    }
+
+    .seperate {
+        display: none !important;
+    }
 }

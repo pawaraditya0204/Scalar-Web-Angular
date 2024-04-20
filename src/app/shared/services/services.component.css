@@ -63,8 +63,6 @@
     border: none;
     color: rgba(255, 255, 255, 0.7);
     cursor: pointer;
-    /* transition: all 0.6s ease-in-out !important;
-    transform: scale(1.03) !important; */
 }
 
 .text-primary {
@@ -77,4 +75,26 @@
     background: -webkit-linear-gradient(left, #ffffff, #ffffff) !important;
     -webkit-background-clip: text !important;
     -webkit-text-fill-color: transparent !important;
+}
+
+.ul-content {
+    margin: 24px 0;
+    overflow: hidden;
+    border-radius: 8px;
+    background-color: #f2f7f6 !important;
+}
+
+.li-content {
+    flex: 1 1 auto;
+    list-style: none;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 18px;
+    color: #371e71;
+}
+
+.li-active-content {
+    background: -webkit-linear-gradient(left, #371e71, #4e1051) !important;
+    text-shadow: 2px 2px 4px rgba(78, 16, 81, 0.3) !important;
+    color: rgba(255, 255, 255, 0.7);
 }

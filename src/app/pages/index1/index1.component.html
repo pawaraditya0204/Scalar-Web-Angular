@@ -3,10 +3,12 @@
 	id="navbar">
 	<div class="container">
 		<!-- LOGO -->
-		<a class="navbar-brand logo text-uppercase" href="/">
-			<!-- Scalar Tech Hub -->
-			<img src="../../../assets/images/wave-shape/Logo.png" alt=""  style="width: 170px; height: 80px;"/>
-		</a>
+		<div class="logo-image-wrapper">
+			<a class="navbar-brand logo text-uppercase " href="/">
+				<!-- Scalar Tech Hub -->
+				<img src="../../../assets/images/wave-shape/Logo with slogan 2.png" class="header-logo">
+			</a>
+		</div>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
 			aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" (click)="toggleMenu()">
 			<i class="mdi mdi-menu"></i>
@@ -16,17 +18,17 @@
 				<li class="nav-item" [ngClass]="{'active':currentSection === 'home'}">
 					<a [ngxScrollTo]="'#home'" href="javascript: void(0);" class="nav-link">Home</a>
 				</li>
+				<li class="nav-item" [ngClass]="{'active':currentSection === 'about'}">
+					<a [ngxScrollTo]="'#about'" href="javascript: void(0);" class="nav-link">About</a>
+				</li>
 				<li class="nav-item" [ngClass]="{'active':currentSection === 'services'}">
-					<a [ngxScrollTo]="'#services'" href="javascript: void(0);" class="nav-link">About</a>
+					<a [ngxScrollTo]="'#services'" href="javascript: void(0);" class="nav-link">Services</a>
 				</li>
-				<li class="nav-item" [ngClass]="{'active':currentSection === 'features'}">
-					<a [ngxScrollTo]="'#features'" href="javascript: void(0);" class="nav-link">Services</a>
+				<li class="nav-item" [ngClass]="{'active':currentSection === 'work'}">
+					<a [ngxScrollTo]="'#work'" href="javascript: void(0);" class="nav-link">Our Works</a>
 				</li>
-				<li class="nav-item" [ngClass]="{'active':currentSection === 'pricing'}">
-					<a [ngxScrollTo]="'#pricing'" href="javascript: void(0);" class="nav-link">Our Works</a>
-				</li>
-				<li class="nav-item" [ngClass]="{'active':currentSection === 'team'}">
-					<a [ngxScrollTo]="'#team'" href="javascript: void(0);" class="nav-link">Blog</a>
+				<li class="nav-item" [ngClass]="{'active':currentSection === 'blog'}">
+					<a [ngxScrollTo]="'#blog'" href="javascript: void(0);" class="nav-link">Blog</a>
 				</li>
 				<!-- <li class="nav-item" [ngClass]="{'active':currentSection === 'blog'}">
 					<a [ngxScrollTo]="'#blog'" href="javascript: void(0);" class="nav-link">Blog</a>
@@ -37,8 +39,9 @@
 			</ul>
 			<div class="nav-button ms-auto">
 				<ul class="nav navbar-nav navbar-right">
-					<li>
-						<button type="button" class="btn btn-primary navbar-btn btn-rounded">GET IN TOUCH</button>
+					<li [ngClass]="{'active':currentSection === 'contact'}">
+						<button type="button" [ngxScrollTo]="'#contact'" href="javascript: void(0);"
+							class="btn btn-primary navbar-btn btn-rounded">GET IN TOUCH</button>
 					</li>
 				</ul>
 			</div>
@@ -81,7 +84,7 @@
 	</div>
 </section>
 
-<section class="about-section">
+<section class="about-section" id="about">
 	<div class="award-rating-section">
 		<div class="inner-about">
 			<div class="award-section">
