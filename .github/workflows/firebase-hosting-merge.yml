@@ -19,7 +19,7 @@ jobs:
           node-version: '20' # Adjust Node.js version as needed
 
       - name: Install dependencies
-        run: npm install
+        run: npm install --force
 
       - name: Build Angular app
         run: npm run build -- --prod
