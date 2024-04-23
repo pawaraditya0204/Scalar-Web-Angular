@@ -1,0 +1,171 @@
+.header {
+    font-size: 38px !important;
+    background: -webkit-linear-gradient(left, #371e71, #4e1051) !important;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+    text-shadow: 2px 2px 4px rgba(78, 16, 81, 0.3) !important;
+    font-weight: 500 !important;
+}
+
+.content {
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.8);
+    text-align: justify;
+}
+
+.contact-section {
+    background: linear-gradient(to right, #371e71, #4e1051) !important;
+}
+
+.contact-head {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 25px;
+    width: 45%;
+}
+
+.explore {
+    box-shadow: 2px 2px 4px rgba(27, 27, 27, 0.3) !important;
+    white-space: nowrap !important;
+    border: none !important;
+    background-color: #ffffff !important;
+    color: #371e71 !important;
+    font-size: 20px !important;
+    border: 1px solid transparent !important;
+    border-radius: 8px !important;
+    padding: 5px 20px !important;
+}
+
+.explore:hover {
+    background-color: transparent !important;
+    color: rgba(255, 255, 255, 0.7) !important;
+    border: 1.5px solid rgba(255, 255, 255, 0.7) !important;
+}
+
+.benefit-head {
+    background: -webkit-linear-gradient(left, #371e71, #4e1051) !important;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+    text-shadow: 2px 2px 4px rgba(78, 16, 81, 0.3) !important;
+    font-size: 32px !important;
+    font-weight: 500 !important;
+}
+
+.numbering {
+    width: max-content;
+    border-radius: 50%;
+    padding: 5px 10px;
+    box-shadow: 2px 2px 4px rgba(78, 16, 81, 0.8);
+}
+
+.benefit-header {
+    font-size: 20px;
+    background: -webkit-linear-gradient(left, #371e71, #4e1051) !important;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+}
+
+.benefit-content {
+    color: rgba(0, 0, 0, 0.7) !important;
+}
+
+.benefit-section {
+    box-shadow: 2px 2px 4px rgba(78, 16, 81, 0.8) !important;
+    border-radius: 20px;
+    padding: 30px;
+    height: 260px !important;
+}
+
+.partner-head {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 35px;
+}
+
+.partner-content {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 19px;
+}
+
+.choose-head {
+    font-size: 20px;
+    background: -webkit-linear-gradient(left, #371e71, #4e1051) !important;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+}
+
+.choose-content {
+    color: rgba(0, 0, 0, 0.8) !important;
+    font-size: 15px !important;
+}
+
+.partner-section {
+    width: 50%;
+}
+
+.gif-image {
+    width: 460px;
+    height: 400px;
+}
+
+@media(min-width : 1200px) {}
+
+@media (min-width:768px) and (max-width: 1199px) {
+    .benefit-section {
+        height: 430px !important;
+        padding: 15px !important;
+    }
+
+    .benefit-header {
+        font-size: 18px !important;
+    }
+}
+
+@media (max-width: 767px) {
+    .header {
+        text-align: center !important;
+        line-height: 0.95 !important;
+        padding: 15px 0 !important;
+    }
+
+    .technology-responsive {
+        flex-direction: column !important;
+    }
+
+    .contact-section {
+        flex-direction: column !important;
+    }
+
+    .contact-head {
+        padding: 20px 20px 40px !important;
+        text-align: center !important;
+        width: 100% !important;
+    }
+
+    .benefit-section {
+        height: auto !important;
+    }
+
+    .partner-section {
+        width: 80% !important;
+        padding-bottom: 20px !important;
+    }
+
+    .partner-content {
+        padding-bottom: 20px !important;
+    }
+
+    .gif-image {
+        width: 100% !important;
+        height: 100% !important;
+    }
+
+    .partner-head {
+        line-height: 1.2 !important;
+    }
+
+    .benefit-head {
+        display: flex !important;
+        justify-content: center !important;
+    }
+}
+
+@media(max-width:576px) {}

@@ -81,7 +81,8 @@
     margin: 24px 0;
     overflow: hidden;
     border-radius: 8px;
-    background-color: #f2f7f6 !important;
+    background-color: #f8f9fa !important;
+    border: 1px solid #4e1051;
 }
 
 .li-content {
@@ -91,10 +92,32 @@
     padding: 10px 0;
     font-size: 18px;
     color: #371e71;
+    border-right: 1px solid #4e1051 !important;
+}
+
+.li-content:last-child {
+    border-right: none !important;
 }
 
 .li-active-content {
     background: -webkit-linear-gradient(left, #371e71, #4e1051) !important;
     text-shadow: 2px 2px 4px rgba(78, 16, 81, 0.3) !important;
     color: rgba(255, 255, 255, 0.7);
+}
+
+.technology-section {
+    border-radius: 50%;
+    padding: 15px;
+    border: 1px solid #f3f3f3;
+    box-shadow: 2px 2px 4px rgba(78, 16, 81, 0.8);
+}
+
+.technologies-section {
+    background-color: #f8f9fa;
+}
+
+@media screen and (max-width: 767px) {
+    .ul-content {
+        flex-direction: column !important;
+    }
 }
