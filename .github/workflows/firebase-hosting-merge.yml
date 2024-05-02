@@ -22,7 +22,7 @@ jobs:
         run: npm install --force
 
       - name: Build Angular app
-        run: ng build
+        run: npm run build
 
       - name: Deploy to Firebase
         run: |
