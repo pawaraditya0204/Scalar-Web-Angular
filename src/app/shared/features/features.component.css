@@ -47,9 +47,10 @@
 }
 
 img {
-    width: auto;
-    height: 180px;
+    width: 250px;
+    height: 155px;
     cursor: pointer;
+    box-shadow: 2px 2px 4px rgba(78, 16, 81, 0.8);
 }
 
 img:hover {

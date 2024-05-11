@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
 
 @Component({
     selector: 'app-footer',
@@ -12,6 +13,7 @@ export class FooterComponent implements OnInit {
 
     isVisible = false;
     cur_year = new Date().getFullYear();
+    currentSection = 'home';
 
     constructor() { }
 
@@ -39,5 +41,8 @@ export class FooterComponent implements OnInit {
             document.body.removeAttribute("data-bs-theme");
             localStorage.setItem("theme", "light");
         }
+    }
+    onSectionChange(sectionId: string) {
+        this.currentSection = sectionId;
     }
 }

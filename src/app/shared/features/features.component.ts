@@ -11,19 +11,14 @@ import { Component, OnInit } from '@angular/core';
 export class FeaturesComponent implements OnInit {
 
     images: string[] = [
-        'img-1.jpg',
-        'img-2.jpg',
-        'img-1.jpg',
-        'img-1.jpg',
-        'img-2.jpg',
-        'img-1.jpg',
-        'img-2.jpg',
-        'img-1.jpg',
-        'img-1.jpg',
-        'img-2.jpg',
-        'img-1.jpg',
-        'img-2.jpg',
-    ];
+        'client1.png',
+        'client2.png',
+        'client3.png',
+        'client4.png',
+        'client5.png',
+        'client6.jpg',
+        'client7.jpeg',
+    ]
 
     currentIndex = 0;
     intervalId: any;

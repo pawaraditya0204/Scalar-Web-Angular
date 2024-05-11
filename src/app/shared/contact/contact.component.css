@@ -35,11 +35,20 @@
     border: 1px solid transparent !important;
 }
 
+.submit-btn a {
+    color: #371e71 !important;
+}
+
 .submit-btn:hover {
     background-color: transparent !important;
     color: rgba(255, 255, 255, 0.7) !important;
     border: 1px solid rgba(255, 255, 255, 0.7) !important;
     transform: translateY(0px) !important;
+}
+
+.submit-btn:hover a {
+    color: rgba(255, 255, 255, 0.7) !important;
+    /* color: #371e71 !important; */
 }
 
 .address {
@@ -85,8 +94,5 @@
 
 
 #contact {
-    /* background: url('https://cdn-dhckg.nitrocdn.com/lWhWhCNKGefleDfrVqXcezqjxPIlQZdz/assets/images/optimized/rev-72bcb76/cart-geek.com/wp-content/uploads/2020/11/dot-banner-image.svg') no-repeat top 75px left -110px, url('https://cdn-dhckg.nitrocdn.com/lWhWhCNKGefleDfrVqXcezqjxPIlQZdz/assets/images/optimized/rev-72bcb76/cart-geek.com/wp-content/uploads/2020/11/dot-banner-image.svg') no-repeat top -5px right 140px;
-    background-color: RGB(67, 23, 97) !important;
-    background-size: 150px !important; */
     background: linear-gradient(to right, #371e71, #4e1051) !important;
 }

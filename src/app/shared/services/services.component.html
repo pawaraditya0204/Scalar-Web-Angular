@@ -1,5 +1,5 @@
 <!--START SERVICES-->
-<section class="section pt-5" id="services">
+<section class="section" id="services">
     <div class="container">
         <div class="row">
             <div class="col-lg-8 offset-lg-2">
@@ -12,72 +12,12 @@
             </div>
         </div>
         <div class="row mt-4">
-            <div class="col-lg-4 mt-3">
+            <div class="col-lg-4 mt-3" *ngFor="let service of services">
                 <div class="services-box text-center">
                     <i class="pe-7s-phone text-primary"></i>
-                    <h4 class="pt-3">Mobile Development</h4>
+                    <h4 class="pt-3">{{ service.service_header }}</h4>
                     <p class="pt-3 text-muted">
-                        We, at Scalar Techhub offer appealing
-                        and impressive applications to ensure your application reaches the target audience, and solves
-                        its purpose.
-                    </p>
-                </div>
-            </div>
-            <div class="col-lg-4 mt-3">
-                <div class="services-box text-center">
-                    <i class="pe-7s-display1 text-primary"></i>
-                    <h4 class="pt-3">Web Development</h4>
-                    <p class="pt-3 text-muted">
-                        Count on our talented team with exceptional web development experience to establish your brand,
-                        automatize processes, collaboration or just about anything that you can think on web. We
-                        hand-hold you at every single .
-                    </p>
-                </div>
-            </div>
-            <div class="col-lg-4 mt-3">
-                <div class="services-box text-center">
-                    <i class="pe-7s-cloud text-primary"></i>
-                    <h4 class="pt-3">Cloud services</h4>
-                    <p class="pt-3 text-muted">
-                        We help clients by providing them cloud based mobile application, web application services. No
-                        matter how big or small the projects, our cloud solutions help firms avoid unnecessary costs on
-                        infrastructure.
-                    </p>
-                </div>
-            </div>
-        </div>
-        <div class="row mt-4">
-            <div class="col-lg-4 mt-3">
-                <div class="services-box text-center">
-                    <i class="pe-7s-science text-primary"></i>
-                    <h4 class="pt-3">UI/UX development</h4>
-                    <p class="pt-3 text-muted">
-                        At Scalar Techhub we offer the excellent Responsive web design services making the websites and
-                        applications smart
-                        enough to resize and adapt its content on the basis of the screen size of the device.
-                    </p>
-                </div>
-            </div>
-            <div class="col-lg-4 mt-3">
-                <div class="services-box text-center">
-                    <i class="pe-7s-news-paper text-primary"></i>
-                    <h4 class="pt-3">Artificial intelligence</h4>
-                    <p class="pt-3 text-muted">
-                        We are on the brink of an age where AI-enabled smart machines, fueled by advances in hardware
-                        and deep neural networks will think, act and even make decisions much the way a human would —
-                        enabled by unprecedented volumes of data.
-                    </p>
-                </div>
-            </div>
-            <div class="col-lg-4 mt-3">
-                <div class="services-box text-center">
-                    <i class="pe-7s-plane text-primary"></i>
-                    <h4 class="pt-3">Analytics</h4>
-                    <p class="pt-3 text-muted">
-                        Scalar Techhub can help you leverage the data that you already have as well as combine it with
-                        third-party data to create real results. Regardless of the industry sector you’re in, acquiring
-                        and analyzing new and existing data will allow you to gain additional insights into market
-                        trends.
+                        {{ service.service_content }}
                     </p>
                 </div>
             </div>
@@ -85,6 +25,8 @@
     </div>
 </section>
 <!--END SERVICES-->
+
+<!-- START TECHNOLOGIES -->
 <section class="technologies-section pt-5 pb-5">
     <div class="row p-0 m-0">
         <div class="container p-0">
@@ -125,7 +67,7 @@
                             <div
                                 class="d-flex justify-content-center align-items-center flex-column technology-section">
                                 <div>
-                                    <img src="../../../assets/images/wave-shape/angular.png.webp" alt="react"
+                                    <img src="../../../assets/images/wave-shape/angular.png" alt="angular"
                                         style="width: 50px;" />
                                 </div>
                             </div>
@@ -347,3 +289,4 @@
         </div>
     </div>
 </section>
+<!-- END TECHNOLOGIES -->

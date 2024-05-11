@@ -85,6 +85,81 @@
     box-shadow: 1px 1px 2px #ccc;
 }
 
+.marquee-container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    height: 250px;
+    padding-top: 30px;
+}
+
+.marquee {
+    display: flex;
+    animation: marqueeAnimation linear infinite;
+}
+
+.marquee-item {
+    flex: 0 0 auto;
+    padding-right: 20px;
+}
+
+.image-cover {
+    padding: 30px;
+    border: 1px solid #efefef;
+    border-radius: 4px;
+    margin: 10px;
+}
+
+.content {
+    color: #95a0ab;
+    font-size: 17px;
+    text-align: center;
+    letter-spacing: 0.02em;
+}
+
+img {
+    width: 100%;
+    height: 180px;
+    cursor: pointer;
+}
+
+.bg-light {
+    padding-top: 120px !important;
+}
+
+@keyframes marqueeAnimation {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.pagination {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dot {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background-color: #ccc;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.dot.active {
+    background: linear-gradient(to right, #371e71, #4e1051) !important;
+}
+
 @media(min-width : 1200px) {
     .slide {
         width: 33.33% !important;

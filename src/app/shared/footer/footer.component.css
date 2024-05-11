@@ -102,6 +102,10 @@ i {
     color: rgba(255, 255, 255, 0.7) !important;
 }
 
+.copy-rights:hover {
+    color: #ffffff !important;
+}
+
 .footer-logo {
     width: 65px !important;
     height: 65px !important;
@@ -112,10 +116,6 @@ i {
     font-size: 24.4px;
     text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.3);
 }
-
-/* @media(min-width : 1200px) {}
-
-@media (min-width:768px) and (max-width: 1199px) {} */
 
 @media (max-width: 567px) {
     .telephone {

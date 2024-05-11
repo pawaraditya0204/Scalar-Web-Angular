@@ -73,7 +73,7 @@
 					<div class="marquee" [style.animationDuration]="(images.length * 3) + 's'">
 						<ng-container *ngFor="let image of images; let i = index">
 							<div class="marquee-item" [ngClass]="{ 'active': isActive(i) }">
-								<img [src]="'assets/images/' + image" alt="Slide">
+								<img [src]="'assets/images/wave-shape/' + image" alt="Slide">
 							</div>
 						</ng-container>
 					</div>

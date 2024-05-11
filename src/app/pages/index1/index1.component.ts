@@ -27,7 +27,6 @@ import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
 export class Index1Component implements OnInit {
 
     id = 'JlvxDa7Sges';
-
     private player;
     private ytEvent;
     constructor(private modalService: NgbModal) {
@@ -44,7 +43,7 @@ export class Index1Component implements OnInit {
         const navbar = document.getElementById('navbar');
         if (document.body.scrollTop > 40 || document.documentElement.scrollTop > 40) {
             navbar.style.backgroundColor = '#272a33';
-            navbar.style.padding = '15px';
+            navbar.style.padding = '10px 15px';
             navbar.style.boxShadow = '0 0 4px 2px rgba(0,0,0,0.8)';
         }
         else {

@@ -13,6 +13,21 @@ export class BlogComponent {
     @ViewChild('carousel') carousel: ElementRef;
     currentIndex = 0;
     slideWidth = 0;
+    images: string[] = [
+        'work1.jpg',
+        'work2.jpeg',
+        'work3.jpeg',
+        'work4.jpeg',
+        'work5.jpeg',
+        'work6.jpg',
+        'work7.jpg',
+        'work8.jpg',
+        'work9.jpeg',
+        'work10.jpg',
+        'work11.png',
+        'work12.png',
+        'work13.jpg',
+    ];
 
     blogs = [
         {
@@ -65,6 +80,11 @@ export class BlogComponent {
         },
     ];
 
+    currentIndexWork = 0;
+    intervalId: any;
+
+    constructor() { }
+
     ngAfterViewInit() {
         this.slideWidth = document.querySelector('.slide').clientWidth;
     }
@@ -86,5 +106,27 @@ export class BlogComponent {
                 });
             }, 500);
         }
+    }
+
+    ngOnInit(): void {
+        this.startSlider();
+    }
+
+    ngOnDestroy(): void {
+        clearInterval(this.intervalId); // Clear interval when component is destroyed
+    }
+
+    startSlider(): void {
+        this.intervalId = setInterval(() => {
+            this.showNext();
+        }, 3000); // Change slide every 3 seconds
+    }
+
+    showNext(): void {
+        this.currentIndexWork = (this.currentIndexWork + 1) % this.images.length;
+    }
+
+    isActive(index: number): boolean {
+        return this.currentIndexWork === index;
     }
 }

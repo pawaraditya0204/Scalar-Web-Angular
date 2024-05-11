@@ -32,18 +32,13 @@
     margin-left: 12px;
     font-weight: 500;
     text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.3);
-    /* line-height: 64px; */
     font-size: 24px;
     color: rgb(255, 255, 255);
-    /* font-family: "Poppins", sans-serif; */
-
-
 }
 
 .header-logo {
     width: 305px;
     height: 75px;
-
 }
 
 .logo-image-wrapper {
@@ -56,7 +51,7 @@
 
 @media(min-width : 1200px) {
     .about-section {
-        padding-top: 100px !important;
+        padding-top: 70px !important;
     }
 
     .inner-about {
@@ -641,5 +636,4 @@
     .logo-image-wrapper {
         display: block !important;
     }
-
 }
