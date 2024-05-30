@@ -11,13 +11,13 @@ import { Component, OnInit } from '@angular/core';
 export class FeaturesComponent implements OnInit {
 
     images: string[] = [
-        'client1.png',
-        'client2.png',
-        'client3.png',
-        'client4.png',
-        'client5.png',
-        'client6.jpg',
-        'client7.jpeg',
+        '9.png',
+        '10.png',
+        '11.png',
+        '12.png',
+        '13.png',
+        '14.png',
+        '15.png',
     ]
 
     currentIndex = 0;

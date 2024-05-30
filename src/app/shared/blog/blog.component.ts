@@ -14,19 +14,14 @@ export class BlogComponent {
     currentIndex = 0;
     slideWidth = 0;
     images: string[] = [
-        'work1.jpg',
-        'work2.jpeg',
-        'work3.jpeg',
-        'work4.jpeg',
-        'work5.jpeg',
-        'work6.jpg',
-        'work7.jpg',
-        'work8.jpg',
-        'work9.jpeg',
-        'work10.jpg',
-        'work11.png',
-        'work12.png',
-        'work13.jpg',
+        '1.png',
+        '2.png',
+        '3.png',
+        '4.png',
+        '5.png',
+        '6.png',
+        '7.png',
+        '8.png',
     ];
 
     blogs = [
